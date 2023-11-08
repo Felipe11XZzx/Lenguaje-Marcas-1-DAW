@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: cadetblue;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4 {
+    color: coral;
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+h5, .parrafo-tipo1{
+    color: cadetblue;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Comentarios En CSS
+
+.parrafo-tipo1 {
+    color: cornflowerblue;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+*/
+
+.parrafo-tipo2 {
+    color: chocolate;
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+#parrafoUK {
+    text-align: center;
+    color: goldenrod;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+h6 {
+    text-align: left;
+    color: crimson;
+    font-family: monospace;
+    font-size: 30px;
+}
