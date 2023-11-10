@@ -1,0 +1,116 @@
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: cadetblue;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4 {
+    color: coral;
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+h5, .parrafo-tipo1{
+    color: cadetblue;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Comentarios En CSS
+
+.parrafo-tipo1 {
+    color: cornflowerblue;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+*/
+
+.parrafo-tipo2 {
+    color: chocolate;
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+#parrafoUK {
+    text-align: center;
+    color: goldenrod;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+#id-h6 {
+
+    /*
+
+     SIEMPRE EL ATRIBUTO EN LA JERARQUIA DE CSS 
+     OPTA POR EL ID ANTES QUE UN SELECTOR NORMAL.
+
+    */
+
+    background-color: cornflowerblue;
+    
+}
+
+h6 {
+    text-align: left;
+    color: crimson;
+    background-color: black;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+
+
+#imagen-llave-1 {
+
+    /* OTRA MANERA DE HACER EL PADDING
+
+    padding: 10px 15px 80px 11px;
+    padding-bottom: 38px; 
+    
+    */
+    
+    border-style: solid dotted dashed;
+    border-color: cadetblue;
+    border-width: 8px;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 10px;
+    
+}
+
+#imagen-llave-2 {
+
+    border-style: solid;
+    border-color: cadetblue;
+    border-width: 8px;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 10px;
+    
+}
+
+.imagen-llave-3 {
+
+    border-style: solid;
+    border-color: cadetblue;
+    border-width: 8px;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 10px;
+
+}
