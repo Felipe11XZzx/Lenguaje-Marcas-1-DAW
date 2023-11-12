@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,500&display=swap');
+
+body {
+
+    font-size: smaller;
+    font-family: 'Signika Negative', sans-serif;
+
+
+}
+
+#place-1 {
+
+    width: 470px;
+    align-items: center;
+    height: 20px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #D1D1D1;
+
+}
+
+#place-2 {
+
+    width: 470px;
+    align-items: center;
+    height: 20px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #D1D1D1;
+
+
+}
+
+#place-3 {
+
+    width: 470px;
+    align-items: center;
+    height: 20px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #D1D1D1;
+
+
+}
+
+#place-4 {
+
+    width: 470px;
+    align-items: center;
+    height: 20px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #D1D1D1;
+
+}
+
+#Opcion-G {
+
+    width: 470px;
+    align-items: center;
+    height: 27px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #D1D1D1;
+
+}
+
+#Mensaje {
+
+    width: 470px;
+    align-items: center;
+    height: 35px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #D1D1D1;
+
+
+}
+
+#fecha {
+
+    width: 470px;
+    align-items: center;
+    height: 25px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #D1D1D1;
+
+
+}
+
+.boton {
+
+    align-items: center;
+    margin-left: 240px;
+
+}
+.contacto {
+
+    margin-left: 35px;
+    margin-right: 35px;
+    border-color: #D1D1D1;
+    border-style: solid;
+
+}
+button {
+    background-color: #2BBF21;
+    border: none;
+    width: 465px;
+    height: 28px;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 10px;
+}
