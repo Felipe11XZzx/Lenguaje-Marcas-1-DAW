@@ -1,0 +1,71 @@
+#head1 {
+
+    border-style: solid;
+    border-color: red;
+    width: fit-content;
+}
+
+.plantilla1 {
+
+    border-style: dashed;
+    border-color: rgb(228, 228, 92);
+    width: 242px;
+
+}
+
+.plantilla2 {
+
+    background-color: orangered;
+
+}
+
+.plantillah2{
+
+    background-color: green;
+    width: fit-content;
+}
+
+#Segundo-Div {
+
+    margin-top: 10px;
+    background-color: rgb(128, 128, 214);
+    border-color: blue;
+    
+}
+
+/*
+ Se Aplica El H3 Por Que Es Mas Global
+*/
+
+h3 {
+    background-color: burlywood;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+}
+
+.plantillah3 {
+
+    background-color: greenyellow;
+}
+
+#idh3 {
+
+    background-color: aqua;
+    border-width: 1px;
+}
+
+.jude {
+
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+}
+
+div {
+
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
