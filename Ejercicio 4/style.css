@@ -1,0 +1,70 @@
+body {
+
+    font-family: 'Signika Negative', sans-serif;
+
+}
+
+#Contenedor-1 {
+
+    background-color: #86EAEB;
+    border: solid;
+    border-color: brown;
+    margin-top: 10px;
+    height: 700px;
+    width: 410px;
+}
+
+.Seccion-1-left, .Seccion-1-right {
+
+    border-style: solid;
+    height: 270px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: left;
+    margin-left: 50px;
+    background-color: antiquewhite;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: block;
+
+}
+
+
+#Contenedor-2 {
+
+    background-color: greenyellow;
+    border: solid;
+    border-color: #1367D0;
+    height: 699px;
+    width: 410px;
+    float: right;
+    margin-top: -706px;
+    margin-right: 1020px;
+
+}
+
+.Seccion-2-left, .Seccion-2-right {
+
+    border-style: solid;
+    height: 270px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: left;
+    margin-left: 50px;
+    background-color: antiquewhite;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: block;
+    
+}
+
+.texto {
+
+margin-left: 20px;
+}
+
+.parrafo {
+
+    text-align: justify;
+    margin-left: 20px;
+}
