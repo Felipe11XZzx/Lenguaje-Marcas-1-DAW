@@ -1,58 +1,88 @@
-function validarFormulario() {
-    // Obtener los valores del formulario
-    var nombre = document.getElementById("nombre").value;
-    var email = document.getElementById("email").value;
+<!DOCTYPE html>
+<html lang="en">
 
-    // Validar el formato del correo electrónico
-    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    var esEmailValido = emailRegex.test(email);
+<link>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fornulario</title>
+    <script src="script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+      </style>
+</head>
 
-    var nombreRegex = /^([A-ZÁÉÍÓÚÑa-zñáéíóúñ]{1,}'?-?[A-ZÁÉÍÓÚÑa-zñáéíóú]+[\s]*)+$/;
-    var esNombreValido = nombreRegex.test(nombre);
+<body>
 
-    var passwordRegex = /^[A-Za-z]\w{7,14}$/;
-    var esPasswordValido = passwordRegex.test(password);
+    <div class="container">
+        <h1 id="title"> Formulario 1</h1>
 
+        <form id="myForm">
 
-    var mensajeRegex =  /^([A-ZÁÉÍÓÚÑa-zñáéíóúñ]{1,}'?-?[A-ZÁÉÍÓÚÑa-zñáéíóú]+[\s]*)+$/;
-    var esMensajeValido = mensajeRegex.test(mensaje);
+            <div class="Input-group">
 
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <p id="nombreError" class="error-message"></p>
+            </div>
 
+            <div class="Input-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" required>
+                <p id="emailError" class="error-message"></p>
+            </div>
 
-    // Mostrar mensaje de error si el correo electrónico no es válido
-    var emailError = document.getElementById("emailError");
-    if (!esEmailValido) {
-        emailError.innerHTML = "Ingrese Una Dirección Valida.";
-    } else {
-        emailError.innerHTML = ""; // Limpiar el mensaje de error si es válido
-        // Aquí puedes enviar el formulario o realizar otras acciones si es válido
-        alert("Formulario enviado correctamente.");
-    }
+            <div class="Input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <p id="passwordError" class="error-message"></p>
+            </div>
 
-    var nombreError = document.getElementById("nombreError");
-    if (!esNombreValido) {
-        nombreError.innerHTML = "Ingrese Un Nombre Valido.";
-    } else {
-        nombreError.innerHTML = ""; // Limpiar el mensaje de error si es válido
-        // Aquí puedes enviar el formulario o realizar otras acciones si es válido
-        alert("Formulario enviado correctamente.");
-    }
+            <div class="Input-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <p id="mensajeError" class="error-message"></p>
+            </div>
 
-    var passwordError = document.getElementById("passwordError");
-    if (!esPasswordValido) {
-        passwordError.innerHTML = "Ingrese Una Contraseña Valida.";
-    } else {
-        passwordError.innerHTML = ""; // Limpiar el mensaje de error si es válido
-        // Aquí puedes enviar el formulario o realizar otras acciones si es válido
-        alert("Contraseña enviada correctamente.");
-    }
+            <div class="Input-group">
+                <label for="genero">Género:</label>
+                <select id="genero" name="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
 
-    var mensajeError = document.getElementById("mensajeError");
-    if (!esMensajeValido){
-        mensajeError.innerHTML = "Ingrese Un Mensaje Valido."
-    } else {
-        mensajeError.innerHTML = "";
+            <div id="Pruebas">
+             
+                 <form id="check">
+                    <input type="checkbox" id="Doc1" name="Doc1" value="DNI"> DNI
+                    <input type="checkbox" id="Doc2" name="Doc2" value="NIE"> NIE
+                    <input type="checkbox" id="Doc3" name="Doc3" value="PASS"> PASAPORTE
+                 </form>
 
-        alert("Mensaje enviado correctamente")
-    }
-}
+                 <form id="color">
+                    <input type="color" id="Color-fav" name="Color-fav">
+                 </form>
+
+                 <form id="fecha">
+                    <label for="Fecha">Fecha:</label>
+                    <input type="date" id="Fecha" name="Fecha">
+                 </form>
+
+                 <form id="local">
+                    <label for="fecha-uso">Hora:</label>
+                    <input type="datetime-local" id="fecha-uso" name="fecha-uso">
+                 </form>
+
+                 <form id="boton">
+                    <input id="Button-R" type="button" onclick="alert('No Se Puede Reiniciar La Pagina')" value="Reiniciar">
+                    <input id="Button-Z" type="button" onclick="alert('El Formulario Se Ha Enviado')" value="Enviar">
+                 </form>
+
+            </div>
+
+    </div>
+</body>
+
+</html>
