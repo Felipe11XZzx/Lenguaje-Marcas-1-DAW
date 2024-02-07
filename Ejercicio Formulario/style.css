@@ -1,17 +1,20 @@
 
 body {
-    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #229EE9;
+}
+
+#title{
+    text-align: center;
 }
 
 .container {
-    background-color: #fff;
+    background-color: #A3C3D6;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -64,4 +67,41 @@ button:hover {
     color: #ff0000;
     font-size: 14px;
     margin-top: 5px;
+}
+
+#Pruebas {
+    margin-bottom: 15px;
+}
+
+#Button-R{
+
+    margin-top: 20px;
+    color: white;
+    background-color: #EC3E14 ;
+    width: 80px;
+
+}
+
+#check{
+    margin-top: 25px;
+}
+
+#color{
+    margin-top: 25px;
+    width: 90px;
+}
+
+#fecha{
+    margin-top: 25px;
+}
+#local{
+
+    margin-top: 25px;
+}
+#Button-Z{
+
+    margin-top: 20px;
+    color: white;
+    background-color: #08AF06 ;
+    width: 80px;
 }
