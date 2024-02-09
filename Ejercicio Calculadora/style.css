@@ -1,0 +1,30 @@
+body{
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(https://i.pinimg.com/originals/79/d7/49/79d7493129a0eb1aefdecf88eb0e5d72.jpg);;
+    color: aliceblue;
+    padding: 70px;
+}
+
+#Botones{
+
+    width: 15%;
+
+}
+
+#Numeros{
+
+    background-color: #0BBBDC;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+
+}
+
+#Operador{
+
+    background-color: #0FE353;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+}
