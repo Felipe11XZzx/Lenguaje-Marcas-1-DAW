@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fornulario</title>
+<script src="script.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="title"> Formulario 1</h1>
+
+        <form id="myForm">
+
+            <div class="Input-group">
+
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <p id="nombreError" class="error-message"></p>
+            </div>
+
+            <div class="Input-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" required>
+                <p id="emailError" class="error-message"></p>
+            </div>
+
+            <div class="Input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <p id="passwordError" class="error-message"></p>
+            </div>
+
+            <div class="Input-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <p id="mensajeError" class="error-message"></p>
+            </div>
+
+            <div class="Input-group">
+                <label for="genero">Género:</label>
+                <select id="genero" name="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+
+
+            <div id="check">
+                <input type="checkbox" id="Doc1" name="Doc1" value="DNI"> DNI
+                <input type="checkbox" id="Doc2" name="Doc2" value="NIE"> NIE
+                <input type="checkbox" id="Doc3" name="Doc3" value="PASS"> PASAPORTE
+            </div>
+
+            <div id="color">
+                <input type="color" id="Color-fav" name="Color-fav">
+            </div>
+
+            <div id="fecha">
+                <label for="Fecha">Fecha:</label>
+                <input type="date" id="Fecha" name="Fecha">
+            </div>
+
+            <div id="local">
+                <label for="fecha-uso">Hora:</label>
+                <input type="datetime-local" id="fecha-uso" name="fecha-uso">
+            </div>
+
+            <div id="boton">
+                <input id="Button-R" type="button" onclick="alert('No Se Puede Reiniciar La Pagina')" value="Reiniciar">
+                <input id="Button-Z" type="button" onclick="alert('El Formulario Se Ha Enviado')" value="Enviar">
+            </div>
+
+            <div id="Archivo">
+                <input type="file" onclick="alert('Selecciona Un Archivo')" value="file">
+            </div>
+
+            <div id="Hidden">
+                <input type="hidden">
+            </div>
+
+            <div id="Month">
+                <label for="Month"> Selecciona Tu Fecha De Nacimiento: </label>
+                <input type="month">
+            </div>
+
+            <div id="Number">
+                <br>
+                <label for="Number"> Selecciona Tu Numero Favorito</label>
+                <input type="number">
+            </div>
+
+            <div id="URL">
+                <br>
+                <label for="URL"> Estreno De El Nuevo Albúm De Eladio Carrión: </label>
+                <input type="url" value="https://www.youtube.com/watch?v=iu6395XWTFM">
+                <br>
+                <input class="Boton" type="submit" value="Reproduce La Canción">
+            </div>
+
+            <div id="Range">
+                <br>
+                <label for="Range"> Introduce Tu Edad Ente Un Rango De (18 0 150)</label>
+                <input type="range" id="Range" name="Range" min="18" max="150">
+            </div>
+
+            <div id="IMAGE">
+                <input type="image" src="https://us-tuna-sounds-images.voicemod.net/cd1409ee-50a9-47ad-ae41-3aeab58fa310-1705154690403.jpg" alt="belligol" width="155" height="355" >
+            </div>
+
+            <div id="Semana">
+                <br>
+                <label for="Semana"> Selecciona Una Semana: </label>
+                <input type="week" id="Semana" name="Semana">
+            </div>
+    </div>
+</body>
+
+</html>
