@@ -151,4 +151,50 @@ function operacion(valor){
     return;
 }
 
+function igual(){
 
+    // Hay igualdad en los operadores, hay guardado alguno de los 3 elementos
+
+    var operando1 = localStorage.getItem("operando1")
+    console.log("Tipo de operando1: " + typeof operando1)
+    console.log(operando1)
+    var operando2 = localStorage.getItem("operando2")
+    console.log(operando2)
+    console.log("Tipo de operando2: " + typeof operando2)
+    var operando3 = localStorage.getItem("operando1")
+    console.log(operando3)
+    console.log("Tipo de operando3: " + typeof operando3)
+    var operacion = localStorage.getItem("operacion")
+    console.log("Tipo de operacion:" + typeof operacion)
+    console.log(operacion)
+
+    if(operando1!=""&&operando2!=""&&operacion!=""){
+
+        if (operacion = "+"){
+            var resultado = Number(operando1) + Number(operando2);
+            console.log(resultado);
+            document.getElementById('display').value = resultado;
+        }else if (operacion = "-"){
+            var resultado = Number(operando1) - Number(operando2);
+            console.log(resultado);
+            document.getElementById('display').value = resultado;
+        }else if (operacion = "*"){
+            var resultado = Number(operando1) * Number(operando2);
+            console.log(resultado);
+            document.getElementById('display').value = resultado;
+        }else if (operacion = "/"){
+            var resultado = Number(operando1) / Number(operando2);
+            console.log(resultado);
+            document.getElementById('display').value = resultado;
+        }else if (operacion = "%"){
+            var resultado = Number(operando1) % Number(operando2);
+            console.log(resultado);
+            document.getElementById('display').value = resultado;
+        }
+
+        localStorage.removeItem("operando1");       
+        localStorage.removeItem("operando2");
+        localStorage.removeItem("operacion");
+
+    }
+}
