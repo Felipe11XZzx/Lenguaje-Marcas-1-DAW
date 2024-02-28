@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro+)>
+    <!ELEMENT libro (titulo, autor, año, editorial)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT año (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+]>
+
+<biblioteca>
+
+    <libro>
+        <titulo> Stendhal 1 </titulo>
+        <autor> Mario Casas </autor>
+        <año> 1998 </año>
+        <editorial> La Casa Del Libro </editorial>
+    </libro>
+
+    <libro>
+        <titulo> Stendhal 2 </titulo>
+        <autor> Neymar JR </autor>
+        <año> 2021 </año>
+        <editorial> La Favela De Gabriel Jesus</editorial>
+    </libro>
+    
+</biblioteca>
