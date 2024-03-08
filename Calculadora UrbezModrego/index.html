@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link type="text/css" href="/style.css" rel="stylesheet">
+    <script src="/script.js"></script>
+
+</head>
+<body>
+    
+    <div id="Ejercicio_calculadora">
+        <input id="resultado" value="" disabled>
+        <div id="botones">
+            <input class="sumar" type="button" value="7" onclick="digito(this.value);">
+            <input class="sumar" type="button" value="8" onclick="digito(this.value);">
+            <input class="sumar" type="button" value="9" onclick="digito(this.value);">
+            <input class="igual" type="button" value="*" onclick="operacion(this.value)">
+            <input class="sumar" type="button" value="4" onclick="digito(this.value);">
+            <input class="sumar" type="button" value="5" onclick="digito(this.value);">
+            <input class="sumar" type="button" value="6" onclick="digito(this.value);">
+            <input class="igual" type="button" value="+" onclick="operacion(this.value)">
+            <input class="sumar" type="button" value="1" onclick="digito(this.value);">
+            <input class="sumar" type="button" value="2" onclick="digito(this.value);">
+            <input class="sumar" type="button" value="3" onclick="digito(this.value);">
+            <input class="igual" type="button" value="-" onclick="operacion(this.value)">
+            <input class="sumar" type="button" value="0" onclick="digito(this.value);">
+            <input class="igual" type="button" value="=" onclick="igual();"> 
+            <input class="igual" type="button" value="AC" onclick="limpiarDisplay();">
+            <input class="igual" type="button" value="/" onclick="operacion(this.value)">
+        </div>
+        <input id="operando1" type="hidden" value= disabled>
+        <input id="operando2" type="hidden" disabled>
+        <input id="operacion" type="hidden" disabled>
+    </div>
+
+</body>
+</html>
