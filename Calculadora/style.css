@@ -1,0 +1,63 @@
+body {
+    background-color: #ccccccb7;
+    margin: auto;
+    padding: 0;
+    background-image: url(https://i.pinimg.com/originals/79/d7/49/79d7493129a0eb1aefdecf88eb0e5d72.jpg);
+    font-family: "Bebas Neue", sans-serif;
+
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#Calculadora input[type=button] {
+    width: 70px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid #030002;
+    border-radius: 20px;
+    background-color: #D06513;
+    font-size: 35px;
+    box-shadow: 0 0 5px;
+    color: #000000;
+}
+
+#Forma {
+
+    margin-top: 500px;
+    margin-left: 150px;
+    background-color: #000000;
+    border-style: unset;
+    border-radius: 25px;
+    height: 410px;
+    width: 350px;
+    text-align: center;
+}
+
+#Pantalla {
+
+    border: 5px solid ;
+    border-radius: 20px;
+    background-color: #5CC3EE;
+    text-align: center;
+    font-size: 25px;
+    vertical-align: middle;
+    line-height: 100px;
+    overflow-y: hidden;
+    color: #000000;
+    width: 300px;
+    height: 75px;
+    margin: 10px;
+}
+
+#Calculadora {
+    width: 335px;
+    height: 350px;
+    margin:  auto;
+    border-radius: 50px;
+    background-color: #f8706b00;
+    padding: 15px;  
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link href="style.css" rel="Stylesheet">
+    <script src="script.js"></script>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Madimi+One&family=Signika+Negative:wght@300&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    
+</head>
+<body>
+    <div id="Calculadora">
+        <div id="Forma">
+            <input id="Pantalla" value="" disabled>
+            <div id="botones">
+                <input class="sumar" type="button" value="7" onclick="digito(this.value);">
+                <input class="sumar" type="button" value="8" onclick="digito(this.value);">
+                <input class="sumar" type="button" value="9" onclick="digito(this.value);">
+                <input class="igual" type="button" value="*" onclick="operacion(this.value)">
+                <input class="sumar" type="button" value="4" onclick="digito(this.value);">
+                <input class="sumar" type="button" value="5" onclick="digito(this.value);">
+                <input class="sumar" type="button" value="6" onclick="digito(this.value);">
+                <input class="igual" type="button" value="+" onclick="operacion(this.value)">
+                <input class="sumar" type="button" value="1" onclick="digito(this.value);">
+                <input class="sumar" type="button" value="2" onclick="digito(this.value);">
+                <input class="sumar" type="button" value="3" onclick="digito(this.value);">
+                <input class="igual" type="button" value="-" onclick="operacion(this.value)">
+                <input class="sumar" type="button" value="0" onclick="digito(this.value);">
+                <input class="igual" type="button" value="=" onclick="igual();"> 
+                <input class="igual" type="button" value="AC" onclick="limpiarDisplay();">
+                <input class="igual" type="button" value="/" onclick="operacion(this.value)">
+            </div>
+        </div>
+        <input id="operando1" type="hidden" value= disabled>
+        <input id="operando2" type="hidden" disabled>
+        <input id="operacion" type="hidden" disabled>
+    </div>
+</body>
+</html>
