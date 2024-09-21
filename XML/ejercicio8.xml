@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empleados>
+  <empleado>
+    <nombre>Carlos</nombre>
+    <salario>50000</salario>
+  </empleado>
+  <empleado>
+    <nombre>Ana</nombre>
+    <salario>60000</salario>
+  </empleado>
+  <empleado>
+    <nombre>Pablo</nombre>
+    <salario>45000</salario>
+  </empleado>
+</empleados>
